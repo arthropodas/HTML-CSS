@@ -1,48 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Collapse side bar in Bootstrap</title>
-    <style>
-      .subscribe-button {
-        color: white;
-        background-color: rgb(48, 11, 11);
-        border-radius: 5px;
-        border: none;
-        width: 105px;
-        height: 36px;
-        cursor: pointer;
-        margin-right: 8px;
-        margin-left: 8px;
-      }
-      .join-button {
-        background-color: white;
-        border-color: blue;
-        border-width: "5px";
-        border-style: solid;
-        width: 105px;
-        height: 36px;
-        margin-left: 8px;
-      }
-      .tweet-button {
-        background-color: rgb(68, 208, 243);
-        color: azure;
-        font-family: ;
-        font-weight: bold;
-        border-width: "5px";
-        border-radius: 25px;
-        /* border-style: solid; */
-        border:hidden;
-        width: 105px;
-        height: 46px;
-        margin-left: 1  8px;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <button class="subscribe-button">SUBSCRIBE</button>
-      <button class="join-button">JOIN</button>
-      <button class="tweet-button">Tweet</button>
-    </div>
-  </body>
+ <head>
+   <title>Collapse side bar in Bootstrap</title>
+   <style>
+     .subscribe-button {
+       color: white;
+       background-color: rgb(48, 11, 11);
+       border-radius: 5px;
+       border: none;
+       width: 105px;
+       height: 36px;
+       cursor: pointer;
+       margin-right: 8px;
+       margin-left: 8px;
+     }
+     .join-button {
+       background-color: white;
+       border-color: blue;
+       border-width: "5px";
+       border-style: solid;
+       width: 105px;
+       height: 36px;
+       margin-left: 8px;
+       transition: background-color .15s ,
+       color .15s
+     }
+     .join-button:hover{
+       background-color: blue;
+       color:white;
+       border-color: blue;
+       border-width: "5px";
+       border-style: solid;
+       width: 105px;
+       height: 36px;
+       margin-left: 8px;
+       box-shadow: 5px 5px 10px rgba(0,0, 0, .15);
+       transition: background-color .15s ,
+       color .15s
+     }
+     .tweet-button {
+       background-color: rgb(68, 208, 243);
+       color: azure;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+       font-weight: bold;
+       border-width: "5px";
+       border-radius: 25px;
+       /* border-style: solid; */
+       border: hidden;
+       width: 105px;
+       height: 46px;
+       margin-left: 1 8px;
+     }
+     .tweet-button:active {
+       background-color: rgb(68, 208, 243);
+       color: azure;
+       font-family:'Courier New', Courier, monospace ;
+       font-weight: bold;
+       border-width: "5px";
+       border-radius: 25px;
+       opacity: 0.7;
+       border: hidden;
+       width: 105px;
+       height: 46px;
+       margin-left: 1 8px;
+     }
+     .tweet-button:hover {
+       background-color: azure;
+       cursor: pointer;
+       color:   rgb(68, 208, 243);
+       font-family:'Courier New', Courier, monospace ;
+       font-weight: bold;
+       border-width: "5px";
+       border-radius: 25px;
+       opacity: 0.7;
+       border: hidden;
+       width: 105px;
+       height: 46px;
+       margin-left: 1 8px;
+     }
+   </style>
+ </head>
+ <body>
+   <div>
+     <button class="subscribe-button">SUBSCRIBE</button>
+     <button class="join-button">JOIN</button>
+     <button class="tweet-button">Tweet</button>
+   </div>
+ </body>
 </html>
+
+
+
