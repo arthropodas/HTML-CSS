@@ -1,0 +1,78 @@
+.thumbnail {
+  width: 100%;
+}
+
+.search-bar {
+  display: block;
+  width: 90%;
+}
+
+.author,
+.video-stats {
+  color: #606060;
+  margin-bottom: 3px;
+}
+.video-stats {
+  color: #606060;
+}
+/* .description{
+    color:#606060;
+    width: 180px;
+
+} */
+.shop-no {
+  margin-left: 15px;
+}
+.shop-no:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer {
+  background-color: rgb(175, 36, 36);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: white;
+  text-align: center;
+  font-family: poppins;
+}
+.preview {
+  vertical-align: top;
+}
+.channel-image {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info {
+  display: inline-block;
+  font-size: 16px;
+  /* width: 200px; */
+}
+.profile-image {
+  width: 90%;
+  border-radius: 50px;
+}
+.video-title {
+  margin-top: 0px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.thumbnail-row {
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 5px;
+}
+.

@@ -1,0 +1,47 @@
+.video-tilte{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style:italic;
+    /* text-align: center; */
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    color: black;
+}
+.views-text{
+
+    color:#606060;
+
+    
+  
+}
+.search-bar{
+    
+}
+.author{
+    color: #606060;
+}
+.description{
+    color:#606060;
+    width: 280;
+}
+p{
+    color: 606060;
+}
+.footer{
+    background-color: rgb(175, 36, 36);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    text-align: center;
+    font-family: poppins;
+
+}
+.shop-no{
+   margin-left: 15px;
+}
+.shop-no:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
